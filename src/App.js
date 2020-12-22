@@ -45,7 +45,6 @@ const App = () => {
     if (e.key === "Enter") {
       setSearchText(e.target.value);
     }
-    console.log("searchtext", searchText);
   };
   const newUser = () => {
     setUser(true);
